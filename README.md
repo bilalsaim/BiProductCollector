@@ -7,10 +7,10 @@ Spring Boot project which is collecting product list via http request
 - To fetch specific product [ProductTypes: Book, Album] : 
 /products/fetch/{productType}/{search}
 
-- To performance check for fetchAll [To fetchAll request should be invoked before] : 
+- To performance check for fetchAll [fetchAll http request should be invoked before] : 
 /actuator/metrics/http.server.requests?tag=performance:products
 
-- To performance check for fetch [To fetch proccess request be invoked before] : 
+- To performance check for fetch [fetch http request be invoked before] : 
 /actuator/metrics/http.server.requests?tag=performance:product
 
 - To health check : 
