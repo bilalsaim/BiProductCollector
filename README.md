@@ -14,7 +14,7 @@ Spring Boot project which is collecting product list via http request
 /actuator/metrics/http.server.requests?tag=performance:product
 
 - To health check : 
-http://localhost:8080/actuator/
+/actuator/
 
 Product limit : 
 search.limit=5
